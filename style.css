@@ -1,0 +1,65 @@
+body{
+    color: whitesmoke;
+    background-color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.heading{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 22px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.name_object,
+.object{
+    font-size: 20px;
+    color: #DD2476;
+}
+
+
+#camera{
+    width: 350px;
+    height: 300px;
+    animation: cooler 3s infinite;
+    border: 2px solid greenyellow;
+}
+
+@keyframes cooler{
+    25%{
+        border-top-color:  #DD2476;
+    }
+    50%{
+        border-right-color:  #DD2476;
+    }
+    75%{
+        border-bottom-color:  #DD2476;
+    }
+    100%{
+        border-left-color:  #DD2476;
+    }
+}
